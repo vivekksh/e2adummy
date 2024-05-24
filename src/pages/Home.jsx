@@ -42,7 +42,7 @@ const Home = () => {
               </a>
               .
             </p>
-            <br /> The same for the second edition is in progress and will be
+            <br /> The same for the third edition is in progress and will be
             indexed soon.
             <div className="mtb-4 book-list">
               <img
