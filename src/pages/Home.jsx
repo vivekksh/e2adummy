@@ -31,7 +31,7 @@ const Home = () => {
             </p>
             <p className="text1">
               We are happy to share that till now, Department of EIE has
-              successfully orgainised two editions of E2A. The proceedings of
+              successfully orgainised three editions of E2A. The proceedings of
               the First & Second Edition is indexed in{" "}
               <a
                 href="https://link.springer.com/"
