@@ -221,6 +221,12 @@ const Committee = () => {
         </div>
 
         <div className="list">
+          <h1>Web Team</h1>
+          <h3>Rupantar Borphukan, NIT Silchar</h3>
+          <h3>Shabnam Haque, NIT Silchar</h3>
+        </div>
+
+        <div className="list">
           <h1>Sponsorship</h1>
           <h3>Dr. Ranjay Hazra, NIT Silchar</h3>
           <h3>Dr. Vipin Chandra Pal, NIT Silchar</h3>
