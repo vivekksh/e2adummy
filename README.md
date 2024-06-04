@@ -1,7 +1,7 @@
 # e2a2024
 4th INTERNATIONAL CONFERENCE ON EMERGING ELECTRONICS AND AUTOMATION
 
-## Deploy Link 
+## Sample Deploy Link 
 https://e2a2024.vercel.app/
 
 ### To run the project 
