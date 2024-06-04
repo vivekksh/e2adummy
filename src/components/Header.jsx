@@ -9,6 +9,7 @@ import image1 from "/images/depImg1.jpeg";
 import image2 from "/images/e2a2022_img1.jpg";
 import image3 from "/images/depImg2.jpeg";
 import image4 from "/images/depImg3.jpeg";
+// import image7 from "/images/depImg4.jpeg";
 import image5 from "/images/nitSilchar.jpeg"
 import image6 from "/images/e2a2021.png"
 import newLogo from "/logos/tnew.gif";
@@ -129,7 +130,6 @@ const Header = () => {
           showStatus={false}
           swipeable={true}
           interval={4000}
-          
         >
           <div>
             <img src={image5} />
@@ -163,18 +163,26 @@ const Header = () => {
                 <div
                   key={i}
                   className={
-                    (item.pathname == window.location.pathname)
+                    item.pathname == window.location.pathname
                       ? "nav-btn-box active-btn"
                       : "nav-btn-box"
                   }
-                  onClick={item.pathname === "/about" ? handleClickScrollHome : handleClickScrollHero}
+                  onClick={
+                    item.pathname === "/about"
+                      ? handleClickScrollHome
+                      : handleClickScrollHero
+                  }
                 >
-                  <Link to={
-                      item.pathname === "/about" ? "/#about" : item.pathname
-                    }
+                  <Link
+                    to={item.pathname === "/about" ? "/#about" : item.pathname}
                     className="nav-btn"
                   >
-                    {item.name} {item.name==="Important Dates" ? <img src={newLogo} width="45px"/> : <></> }
+                    {item.name}{" "}
+                    {item.name === "Important Dates" ? (
+                      <img src={newLogo} width="45px" />
+                    ) : (
+                      <></>
+                    )}
                   </Link>
                 </div>
               )
@@ -190,30 +198,40 @@ const Header = () => {
             <ul id="menu">
               {navItems.map((item, i) =>
                 item.subItems && item.subItems.length > 0 ? (
-                <div key={i}>
-                  <DropDown subItems={item.subItems}>
-                    <a className="nav-btn">{item.name}</a>
-                  </DropDown>
-                </div>
-              ) : (
-                <div
-                  key={i}
-                  className={
-                    item.pathname == window.location.pathname
-                      ? "nav-btn-box active-btn"
-                      : "nav-btn-box"
-                  }
-                  onClick={item.pathname === "/about" ? handleClickScrollHome : handleClickScrollHero}
-                >
-                  <Link to={
-                      item.pathname === "/about" ? "/#about" : item.pathname
+                  <div key={i}>
+                    <DropDown subItems={item.subItems}>
+                      <a className="nav-btn">{item.name}</a>
+                    </DropDown>
+                  </div>
+                ) : (
+                  <div
+                    key={i}
+                    className={
+                      item.pathname == window.location.pathname
+                        ? "nav-btn-box active-btn"
+                        : "nav-btn-box"
                     }
-                    className="nav-btn"
+                    onClick={
+                      item.pathname === "/about"
+                        ? handleClickScrollHome
+                        : handleClickScrollHero
+                    }
                   >
-                    {item.name} {item.name==="Important Dates" ? <img src={newLogo}/> : <></> }
-                  </Link>
-                </div>
-              )
+                    <Link
+                      to={
+                        item.pathname === "/about" ? "/#about" : item.pathname
+                      }
+                      className="nav-btn"
+                    >
+                      {item.name}{" "}
+                      {item.name === "Important Dates" ? (
+                        <img src={newLogo} />
+                      ) : (
+                        <></>
+                      )}
+                    </Link>
+                  </div>
+                )
               )}
 
               {/* <li key={i}>
@@ -231,7 +249,9 @@ const Header = () => {
           <div className="content-container">
             <div className="heading">
               4<sup>th</sup> INTERNATIONAL CONFERENCE ON{" "}
-              <span className="red-text">EMERGING ELECTRONICS AND AUTOMATION</span>
+              <span className="red-text">
+                EMERGING ELECTRONICS AND AUTOMATION
+              </span>
             </div>
             <div className="date">
               9<sup>th</sup> - 11<sup>th</sup> Dec,{" "}
@@ -251,17 +271,17 @@ const Header = () => {
             </div>
             <div className="logoBox">
               <div>
-              <h6 className="organised-by bold mt-2 mb-1">
-                Technically Co-Sponsored : Coming Soon...
-              </h6>
+                <h6 className="organised-by bold mt-2 mb-1">
+                  Technically Co-Sponsored : Coming Soon...
+                </h6>
               </div>
               <div className="lBox">
-              {/* <img className="serbLogo" src="/logos/serb_logo.png" alt="" />
+                {/* <img className="serbLogo" src="/logos/serb_logo.png" alt="" />
               <img className="logo2" src="/logos/logo_springer.jpg" alt="" />
               <img className="logo2" src="/logos/infoTechLogo.jpg" alt="" />
               <img className="logo2" src="/logos/bmgLogo.jpg" alt="" /> */}
               </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
