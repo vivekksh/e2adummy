@@ -71,7 +71,7 @@ const Committee = () => {
               img={"/images/profile_pic.png"}
               name={`Dr. Utkal Mehta`}
               aff={
-                "The University of the South Pacific (USP), Laucala Campus, Suva, FIJI ISLAND"
+                "The University of the South Pacific (USP), Laucala Campus, FIJI ISLANDS"
               }
               link={""}
             />
