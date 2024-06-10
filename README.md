@@ -1,9 +1,6 @@
 # e2a2024
 4th INTERNATIONAL CONFERENCE ON EMERGING ELECTRONICS AND AUTOMATION
 
-## Sample Deploy Link 
-https://e2a2024.vercel.app/
-
 ### To run the project 
 1. Clone the repo
 2. pnpm install
