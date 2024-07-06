@@ -24,7 +24,7 @@ const Committee = () => {
         <div className="list">
           <h1 style={{ marginBottom: "10px" }}>Patron</h1>
           <ProfileCard
-            img={"/images/dilip-kr-baidya.jpg"}
+            img={"public/images/dilip-kr-baidya.jpg"}
             name="Prof. Dilip Kumar Baidya"
             aff={"Director, NIT Silchar"}
           />
@@ -33,7 +33,7 @@ const Committee = () => {
           <h1 style={{ marginBottom: "10px" }}>Honorary Chair</h1>
 
           <ProfileCard
-            img={"/images/profile_pic.png"}
+            img={"public/images/Deepak_Mathur.jpg"}
             name="Deepak Mathur"
             aff={"Former Chief General Manager, ONGC"}
             style={{ maxWidth: "350px" }}
@@ -54,21 +54,21 @@ const Committee = () => {
           >
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"public/images/Mohan_K.jpg"}
               name={`Prof. Mohan Kankanhalli`}
               aff={"National University of Singapore, Singapore"}
               link={""}
             />
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"images/Sharad_Bhartiya.jpg"}
               name={`Prof. Sharad Bhatiya`}
               aff={"IIT Bombay"}
               link={""}
             />
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"images/Utkal_Mehta.jpeg"}
               name={`Dr. Utkal Mehta`}
               aff={
                 "The University of the South Pacific (USP), Laucala Campus, Suva, FIJI ISLAND"
@@ -78,7 +78,7 @@ const Committee = () => {
 
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"images/Sudipta_Chakraborty.jpeg"}
               name={`Dr. Sudipta Chakraborty`}
               aff={"NIT Silchar"}
               link={""}
@@ -116,7 +116,7 @@ const Committee = () => {
           >
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"images/lalu.jpg"}
               name="Dr. Lalu Seban"
               aff="NIT Silchar"
               link="http://www.nits.ac.in/departments/instru/eie.php"
@@ -124,7 +124,7 @@ const Committee = () => {
 
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"images/Koena_M.jpg"}
               name="Dr. Koena Mukherjee"
               aff="NIT Silchar"
               link="http://www.nits.ac.in/departments/instru/eie.php"
@@ -132,7 +132,7 @@ const Committee = () => {
 
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"/images/profile_pic.png"}
+              img={"/images/Sudarsan_Sahoo.png"}
               name="Dr. Sudarsan Sahoo"
               aff="NIT Silchar"
               link="http://www.nits.ac.in/departments/instru/eie.php"

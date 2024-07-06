@@ -1,11 +1,11 @@
-import React from 'react'
-import Header from '../components/Header';
+import React from "react";
+import Header from "../components/Header";
 
 const ImportantDates = () => {
   const container = React.useRef(null);
   const scrollToBottom = () => {
-    container.current.scrollIntoView({ behavior: "smooth" })
-  }
+    container.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   React.useEffect(scrollToBottom, []);
 
@@ -25,37 +25,37 @@ const ImportantDates = () => {
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Paper Submission Opens: Coming Soon...
+            Paper Submission Opens: 10.07.2024
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Extended Submission Deadline: <s></s> Coming Soon...
+            Submission Deadline: <s></s> 15.09.2024
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Acceptance Notification: Coming Soon...
+            Acceptance Notification: 25.09.2024 onwards
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Last Date for Conference Registration: Coming Soon...
+            Last Date for Conference Registration: 20.11.2024
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Last Date for Conference Registration (Late): Coming Soon...
+            Last Date for Conference Registration (Late): 07.12.2024
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Deadline for Camera Ready Paper: Coming Soon...
+            Deadline for Camera Ready Paper: 18.11.2024
           </li>
           {/* <li style={{textAlign: "start", fontSize: "1.5rem"}} className='mtb-1'>
             Deadline For Final Paper: 15.11.2022
@@ -65,6 +65,6 @@ const ImportantDates = () => {
       </div>
     </>
   );
-}
+};
 
-export default ImportantDates
+export default ImportantDates;
