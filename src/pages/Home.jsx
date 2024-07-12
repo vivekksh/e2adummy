@@ -43,8 +43,6 @@ const Home = () => {
               </a>
               .
             </p>
-            <br /> The same for the Third edition is in progress and will be
-            indexed soon.
             <div className="mtb-4 book-list">
               <img
                 src="/images/book2024.jpg"
@@ -53,8 +51,7 @@ const Home = () => {
               />
               <div className="ml-4">
                 <p className="mb-1">
-                  Peter Han Joo Chong, Akhtar Kalam, Antonio Pascoal, Manas
-                  Kumar Bera
+                  Moncef Gabbouj, Shyam Sudhir Pandey, Hari Krishna Garg, Ranjay Hazra
                 </p>
                 <a
                   href="https://www.springer.com/gp/book/978-981-19-4299-0?utm_medium=catalog&utm_source=sn-bks&utm_campaign=search_tool&utm_content=my_flyer"
@@ -180,14 +177,15 @@ const Home = () => {
               <h4 className="ml-1">Submit Your Paper</h4>
             </div>
             <p>
-              <a
+              {/* <a
                 style={{ color: "#127CCC" }}
                 className="e2a-link"
                 target="__blank"
                 //  href="https://cmt3.research.microsoft.com/E2A2023/Submission/Index"
               >
-                Coming soon..
-              </a>
+                
+              </a> */}
+                Through Microsoft CMT Portal
             </p>
           </div>
           <div className="mb-3">

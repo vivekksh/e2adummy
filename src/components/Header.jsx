@@ -4,14 +4,22 @@ import DropDown from "./DropDown";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import CrossfadeCarousel from '@notbaldrick/react-crossfade-carousel'
 
+// import image1 from "/images/homeImg_lotus.jpeg";
+// import image2 from "/images/e2a2022_img1.jpg";
+// import image3 from "/images/homeImg_Admin.jpeg";
+// import image4 from "/images/homeImg_gh.jpeg";
+// import image7 from "/images/homeImg_tea.jpeg";
+// import image5 from "/images/homeImg_gh2.jpeg"
+// import image6 from "/images/homeImg_road.jpeg"
 import image1 from "/images/depImg1.jpeg";
 import image2 from "/images/e2a2022_img1.jpg";
 import image3 from "/images/depImg2.jpeg";
 import image4 from "/images/depImg3.jpeg";
-// import image7 from "/images/depImg4.jpeg";
-import image5 from "/images/nitSilchar.jpeg"
-import image6 from "/images/e2a2021.png"
+import image7 from "/images/depImg4.jpeg";
+import image5 from "/images/homeImg_gh2.jpeg"
+import image6 from "/images/homeImg_road.jpeg"
 import newLogo from "/logos/tnew.gif";
 import { Link } from "react-router-dom";
 
@@ -119,7 +127,7 @@ const Header = () => {
   return (
     <>
       <div className="header" id="header">
-        <Carousel
+        {/* <Carousel
           showThumbs={false}
           showIndicators={false}
           infiniteLoop={true}
@@ -146,7 +154,19 @@ const Header = () => {
           <div>
             <img src={image4} />
           </div>
-        </Carousel>
+          <div>
+            <img src={image6} />
+          </div>
+          <div>
+            <img src={image7} />
+          </div>
+        </Carousel> */}
+
+        <CrossfadeCarousel interval={2000} transition={2000} 
+          images={[
+            image1,image2,image3,image4,image5,image6,image7
+          ]}
+        />
         <nav className={isScrolled ? "moved nav-bar" : "nav-bar"}>
           <div className="logo">
             <img src="e2a.png" alt="" className="e2a-logo" />

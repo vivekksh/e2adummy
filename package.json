@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@notbaldrick/react-crossfade-carousel": "^1.0.4",
     "aphrodite": "^2.4.0",
     "dotenv": "^16.3.1",
     "framer-motion": "^11.2.6",
