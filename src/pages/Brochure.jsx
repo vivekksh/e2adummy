@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/brochurePage.css";
-import brochureImg from "../assets/img/brochure2023.jpg";
+import brochureImg from "../assets/img/brochure2024.png";
 
 const Brochure = () => {
   return (

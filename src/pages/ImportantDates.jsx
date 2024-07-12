@@ -25,7 +25,7 @@ const ImportantDates = () => {
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Paper Submission Opens: 10.07.2024
+            Paper Submission Opens: 15.07.2024
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}

@@ -190,31 +190,31 @@ const Registration = () => {
             </tr>
             <tr>
               <td>Students</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
+              <td>5000</td>
+              <td>200</td>
+              <td>6000</td>
+              <td>250</td>
             </tr>
             <tr>
               <td>Academician/Scientists</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
+              <td>6000</td>
+              <td>300</td>
+              <td>7000</td>
+              <td>350</td>
             </tr>
             <tr>
               <td>Industry</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
+              <td>7000</td>
+              <td>400</td>
+              <td>8000</td>
+              <td>450</td>
             </tr>
             <tr>
               <td>Conference Attendee / Additional Paper per Author</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
-              <td>Coming Soon...</td>
+              <td>3000</td>
+              <td>100</td>
+              <td>3000</td>
+              <td>125</td>
             </tr>
           </table>
         </div>

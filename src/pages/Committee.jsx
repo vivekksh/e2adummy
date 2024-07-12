@@ -24,7 +24,7 @@ const Committee = () => {
         <div className="list">
           <h1 style={{ marginBottom: "10px" }}>Patron</h1>
           <ProfileCard
-            img={"public/images/dilip-kr-baidya.jpg"}
+            img={"/images/dilip-kr-baidya.jpg"}
             name="Prof. Dilip Kumar Baidya"
             aff={"Director, NIT Silchar"}
           />
@@ -33,7 +33,7 @@ const Committee = () => {
           <h1 style={{ marginBottom: "10px" }}>Honorary Chair</h1>
 
           <ProfileCard
-            img={"public/images/Deepak_Mathur.jpg"}
+            img={"/images/Deepak_Mathur.jpg"}
             name="Deepak Mathur"
             aff={"Former Chief General Manager, ONGC"}
             style={{ maxWidth: "350px" }}
@@ -54,7 +54,7 @@ const Committee = () => {
           >
             <ProfileCard
               style={{ maxWidth: "300px" }}
-              img={"public/images/Mohan_K.jpg"}
+              img={"/images/Mohan_K.jpg"}
               name={`Prof. Mohan Kankanhalli`}
               aff={"National University of Singapore, Singapore"}
               link={""}
@@ -227,6 +227,7 @@ const Committee = () => {
           <h1>Web Team</h1>
           <h3>Rupantar Borphukan, NIT Silchar</h3>
           <h3>Shabnam Haque, NIT Silchar</h3>
+          <h3>Vinayak Das, NIT Silchar</h3>
         </div>
 
         <div className="list">

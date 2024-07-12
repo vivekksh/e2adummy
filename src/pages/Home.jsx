@@ -8,11 +8,10 @@ import fileLines from "../assets/svg/file-lines-solid.svg";
 import website from "../assets/svg/website.svg";
 import CustomHR from "../components/CustomHR";
 import Header from "../components/Header";
-import speakers from "../assets/speakers"
+import speakers from "../assets/speakers";
 import SpeakerCard from "../components/SpeakerCard";
 
 const Home = () => {
-
   return (
     <>
       <Header />
@@ -23,18 +22,20 @@ const Home = () => {
           </h2>
           <div className="home-about-content">
             <p className="text1 mb-1">
-              Emerging Electronics and Automation (E2A) 2024 is the 4
-              <sup>th</sup> annual International Conference organized by the
-              Department of Electronics and Instrumentation Engineering at NIT
-              Silchar, Assam. E2A 2024 is scheduled to be in hybrid mode between
-              9th and 11th December 2023.
+              Emerging Electronics and Automation
+              (E2A) 2024 is the 4<sup>th</sup> Annual International Conference organized by
+              the Department of Electronics and Instrumentation Engineering at
+              NIT Silchar, Assam. E2A 2024 is scheduled to be in hybrid mode
+              between 9th and 11th December 2023. 
             </p>
             <p className="text1">
-              We are happy to share that till now, Department of EIE has
-              successfully orgainised two editions of E2A. The proceedings of
-              the First & Second Edition is indexed in{" "}
+            We are happy to share that
+              till now, Department of EIE has successfully organized three
+              editions of E2A. The proceedings of the First & Second Edition are
+              indexed in Springer LNEE. The same for the Third edition is in  progress and will be indexed soon.
+              {/* {" "} */}
               <a
-                href="https://link.springer.com/"
+                href="https://www.springer.com/series/7818"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -46,7 +47,7 @@ const Home = () => {
             indexed soon.
             <div className="mtb-4 book-list">
               <img
-                src="/images/book.jpg"
+                src="/images/book2024.jpg"
                 alt="E2a book"
                 style={{ height: "400px" }}
               />
@@ -67,7 +68,7 @@ const Home = () => {
                   className="mt-1"
                   style={{ fontSize: "24px", fontWeight: 400, color: "#444" }}
                 >
-                  Select Proceedings of E2A 2024
+                  Select Proceedings of E2A 2022
                 </p>
                 <ul className="ml-2 mt-2">
                   <li style={{ color: "#127ccc" }}>
@@ -183,9 +184,9 @@ const Home = () => {
                 style={{ color: "#127CCC" }}
                 className="e2a-link"
                 target="__blank"
-                href="https://cmt3.research.microsoft.com/E2A2023/Submission/Index"
+                //  href="https://cmt3.research.microsoft.com/E2A2023/Submission/Index"
               >
-                CMT Portal
+                Coming soon..
               </a>
             </p>
           </div>
@@ -218,8 +219,7 @@ const Home = () => {
           <CustomHR color="#626E75" large={true} />
           <div className="mtb-2 book-sidebar">
             <p>Edition No: 1</p>
-            <p>2021. X, 790 p.</p>
-            <p>Series</p>
+             <p>Series</p>
             <p>Lecture Notes in Electrical Engineering</p>
             <a
               href="https://www.springer.com/gp/book/978-981-19-4299-0?utm_medium=catalog&utm_source=sn-bks&utm_campaign=search_tool&utm_content=my_flyer"
@@ -232,7 +232,15 @@ const Home = () => {
           <CustomHR color="#626E75" large={true} />
           <div className="mtb-2 book-sidebar">
             <p>Edition No: 2</p>
-            <p>Coming Soon...</p>
+            <p>Series</p>
+            <p>Lecture Notes in Electrical Engineering</p>
+            <a
+              href="https://link.springer.com/book/10.1007/978-981-99-6855-8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ISBN 978-981-99-6854-1
+            </a>
           </div>
           {/* <CustomHR color="#626E75" large={true} />
           <div className="mt-2 book-sidebar">
@@ -269,7 +277,7 @@ const Home = () => {
 
       <section className="text-center sponsors container">
         {/* <h3 className="heading_h3 mb-1">Technical Co-Sponsor</h3> */}
-        {/* <img className="logo2" src="/logos/logo_springer.jpg" alt="" /> */}
+        {/* {<img className="logo2" src="/logos/logo_springer.jpg" alt="" />} */}
         {/* <CustomHR color="#626E75" /> */}
         {/* <div className="mb-3" /> */}
         {/* <div className="container flex-col pb-4">

@@ -58,10 +58,10 @@ const navItems = [
         name: "Brochure",
         pathname: "/program-brochure",
       },
-      {
-        name: "Schedule",
-        pathname: "/program-schedule",
-      },
+      // {
+      //   name: "Schedule",
+      //   pathname: "/program-schedule",
+      // },
       {
         name: "Keynote Speakers",
         pathname: "/keynote-speakers",
@@ -272,7 +272,11 @@ const Header = () => {
             <div className="logoBox">
               <div>
                 <h6 className="organised-by bold mt-2 mb-1">
-                  Technically Co-Sponsored : Coming Soon...
+                  Technically Co-Sponsored : 
+                  <span>    </span>
+                   
+              <img src="/logos/logo_springer.jpg" alt="" className="nit-logo" />
+          
                 </h6>
               </div>
               <div className="lBox">
