@@ -2,24 +2,15 @@ import React from "react";
 import "../assets/css/header.css";
 import DropDown from "./DropDown";
 import ReactDOM from "react-dom";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 import CrossfadeCarousel from '@notbaldrick/react-crossfade-carousel'
-
-// import image1 from "/images/homeImg_lotus.jpeg";
-// import image2 from "/images/e2a2022_img1.jpg";
-// import image3 from "/images/homeImg_Admin.jpeg";
-// import image4 from "/images/homeImg_gh.jpeg";
-// import image7 from "/images/homeImg_tea.jpeg";
-// import image5 from "/images/homeImg_gh2.jpeg"
-// import image6 from "/images/homeImg_road.jpeg"
-import image1 from "/images/depImg1.jpeg";
-import image2 from "/images/e2a2022_img1.jpg";
 import image3 from "/images/depImg2.jpeg";
 import image4 from "/images/depImg3.jpeg";
-import image7 from "/images/depImg4.jpeg";
-import image5 from "/images/homeImg_gh2.jpeg"
-import image6 from "/images/homeImg_road.jpeg"
+import image5 from "/images/homeImg_a.jpg"
+import image6 from "/images/homeImg_b.jpg"
+import image7 from "/images/homeImg_c.jpg"
+import image8 from "/images/homeImg_d.jpg"
+import image9 from "/images/homeImg_e.jpg"
+import image10 from "/images/homeImg_f.jpg"
 import newLogo from "/logos/tnew.gif";
 import { Link } from "react-router-dom";
 
@@ -127,44 +118,9 @@ const Header = () => {
   return (
     <>
       <div className="header" id="header">
-        {/* <Carousel
-          showThumbs={false}
-          showIndicators={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          dynamicHeight={true}
-          showArrows={false}
-          useKeyboardArrows={true}
-          showStatus={false}
-          swipeable={true}
-          interval={4000}
-        >
-          <div>
-            <img src={image5} />
-          </div>
-          <div>
-            <img src={image1} />
-          </div>
-          <div>
-            <img src={image2} />
-          </div>
-          <div>
-            <img src={image3} />
-          </div>
-          <div>
-            <img src={image4} />
-          </div>
-          <div>
-            <img src={image6} />
-          </div>
-          <div>
-            <img src={image7} />
-          </div>
-        </Carousel> */}
-
         <CrossfadeCarousel interval={2000} transition={2000} 
           images={[
-            image1,image2,image3,image4,image5,image6,image7
+            image8,image7,image9,image10,image6,image4,image5,image3
           ]}
         />
         <nav className={isScrolled ? "moved nav-bar" : "nav-bar"}>

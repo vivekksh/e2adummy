@@ -62,7 +62,7 @@ const Committee = () => {
             <ProfileCard
               style={{ maxWidth: "300px" }}
               img={"images/Sharad_Bhartiya.jpg"}
-              name={`Prof. Sharad Bhatiya`}
+              name={`Prof. Sharad Bhartiya`}
               aff={"IIT Bombay"}
               link={""}
             />

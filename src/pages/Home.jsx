@@ -177,15 +177,14 @@ const Home = () => {
               <h4 className="ml-1">Submit Your Paper</h4>
             </div>
             <p>
-              {/* <a
+              <a
                 style={{ color: "#127CCC" }}
                 className="e2a-link"
                 target="__blank"
-                //  href="https://cmt3.research.microsoft.com/E2A2023/Submission/Index"
+                href="https://cmt3.research.microsoft.com/E2A2024/Submission/Index"
               >
-                
-              </a> */}
-                Through Microsoft CMT Portal
+                CMT Portal
+              </a>
             </p>
           </div>
           <div className="mb-3">

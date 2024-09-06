@@ -31,31 +31,31 @@ const ImportantDates = () => {
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Submission Deadline: <s></s> 15.09.2024
+            Paper Submission Deadline: <s></s> 15.09.2024
           </li>
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Acceptance Notification: 25.09.2024 onwards
-          </li>
+            Acceptance Notification: 25.09.2024 Onwards
+          </li>`
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Last Date for Conference Registration: 20.11.2024
+            Last Date for Conference Registration: 15.11.2024
           </li>
+          {/* <li
+            style={{ textAlign: "start", fontSize: "1.5rem" }}
+            className="mtb-1"
+          >
+            Last Date for Conference Registration (Late): 07.12.2024`
+          </li> */}
           <li
             style={{ textAlign: "start", fontSize: "1.5rem" }}
             className="mtb-1"
           >
-            Last Date for Conference Registration (Late): 07.12.2024
-          </li>
-          <li
-            style={{ textAlign: "start", fontSize: "1.5rem" }}
-            className="mtb-1"
-          >
-            Deadline for Camera Ready Paper: 18.11.2024
+            Deadline for Camera Ready Paper: 20.11.2024
           </li>
           {/* <li style={{textAlign: "start", fontSize: "1.5rem"}} className='mtb-1'>
             Deadline For Final Paper: 15.11.2022
