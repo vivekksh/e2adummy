@@ -25,6 +25,7 @@ const KeynoteSpeakers = () => {
                 img: user.img,
                 name: user.name,
                 designation: user.designation,
+                college: user.college,
               };
               return <SpeakerCard key={i} {...props} />;
             })}

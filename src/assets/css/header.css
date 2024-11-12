@@ -253,6 +253,12 @@ h6 {
   transition: color 0.3s ease;
 }
 
+@media only screen and (max-width:768px) {
+  #menuToggle a img {
+    width: 40px;
+  }
+}
+
 #menuToggle a:hover {
   color: #ff6f00;
 }

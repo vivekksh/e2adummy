@@ -68,10 +68,10 @@ td {
   background: #e8b563;
   /* background-image: linear-gradient(to right,#D85B6D,#F48B6B); */
 }
-.image-container {
+.speaker-upper-container .image-container {
   background: white;
   position: absolute;
-  width: 55%;
+  width: 50%;
   top: 1.8rem;
   z-index: 2;
   border-radius: 10px;
@@ -91,7 +91,7 @@ td {
   background: #fff;
   text-align: center;
 }
-.committeeName{
+.committeeName {
   position: relative;
   width: 100%;
   top: 8rem;
@@ -105,5 +105,33 @@ td {
   font-size: 1rem;
   opacity: 0.6;
 }
+.speaker-designation{
+  position: relative;
+  top: 0.7rem;
+  color: black;
+  font-size: 1rem;
+}
+.speaker-college{
+  position: relative;
+  top: 0.7rem;
+  color: black;
+  font-size: 1rem;
+}
 
-
+@media only screen and (max-width:480px) {
+  .speaker-card-container .committeeName{
+    top: 5rem;
+  }
+  .speaker-card-container .speaker-name{
+    padding: 0 0.5rem;
+  }
+  .mt-2{
+    gap: 2rem;
+  }
+  .list.textNames h1{
+    font-size: 1.7rem;
+  }
+  .list.textNames h3{
+    font-size: 1rem;
+  }
+}

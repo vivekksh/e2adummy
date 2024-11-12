@@ -148,7 +148,7 @@ const Committee = () => {
           </div>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Technical Program Chairs</h1>
           <h3>
             <strong>Control & Robotics: </strong> Dr. Vipin Chandra Pal
@@ -174,7 +174,7 @@ const Committee = () => {
           </h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Publication Chairs</h1>
           <h3>Dr. Ranjay Hazra, NIT Silchar</h3>
           <h3>Dr. Sudipta Chakraborty, NIT Silchar</h3>
@@ -183,7 +183,7 @@ const Committee = () => {
           <h3>Dr. Ramanujan, NIT Silchar</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Publicity Chairs</h1>
           <h3>Dr. Shankar K., NIT Silchar</h3>
           <h3>Dr. Koena Mukherjee, NIT Silchar</h3>
@@ -191,7 +191,7 @@ const Committee = () => {
           <h3>Dr. Manas Kumar Bera, NIT Rourkela</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Hospitality Chairs</h1>
           <h3>Dr. Sudipta Chakraborty, NIT Silchar</h3>
           <h3>Dr. Ujjal Chakraborty, NIT Silchar</h3>
@@ -199,7 +199,7 @@ const Committee = () => {
           <h3>Dr. Sudarsan Sahoo, NIT Silchar</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Finance Chairs</h1>
           <h3>Dr. Sudarsan Sahoo, NIT Silchar</h3>
           <h3>Dr. Vipin Chandra Pal, NIT Silchar</h3>
@@ -207,7 +207,7 @@ const Committee = () => {
           <h3>Dr. Dipankar Bhanja, NIT Silchar</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Registration Committee</h1>
           <h3>Dr. Shankar K., NIT Silchar</h3>
           <h3>Dr. Jupitara Hazarika, NIT Silchar</h3>
@@ -215,7 +215,7 @@ const Committee = () => {
           <h3>Dr. Shivendra Kumar Pandey, NIT Silchar</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Website & Online Platform Commitee</h1>
           <h3>Dr. Lalu Seban, NIT Silchar</h3>
           <h3>Dr. Pravin P.S., NIT Silchar</h3>
@@ -223,14 +223,14 @@ const Committee = () => {
           <h3>Dr. Ripon Patgiri, NIT Silchar</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Web Team</h1>
           <h3>Rupantar Borphukan, NIT Silchar</h3>
           <h3>Shabnam Haque, NIT Silchar</h3>
           <h3>Vinayak Das, NIT Silchar</h3>
         </div>
 
-        <div className="list">
+        <div className="list textNames">
           <h1>Sponsorship</h1>
           <h3>Dr. Ranjay Hazra, NIT Silchar</h3>
           <h3>Dr. Shivendra Kumar Pandey, NIT Silchar</h3>

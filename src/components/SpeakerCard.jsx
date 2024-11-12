@@ -13,6 +13,8 @@ const SpeakerCard = (props) => {
             <div className="committeeName">
                <div className="speaker-name">{props.name}</div>
                <div className="speaker-designation">{props.designation}</div>
+               <div className="speaker-college">{props.college}</div>
+               <br />
             </div>
          </div>
       </div>

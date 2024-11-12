@@ -26,7 +26,7 @@ const Home = () => {
               (E2A) 2024 is the 4<sup>th</sup> Annual International Conference organized by
               the Department of Electronics and Instrumentation Engineering at
               NIT Silchar, Assam. E2A 2024 is scheduled to be in hybrid mode
-              between 9th and 11th December 2023. 
+              between 9th and 11th December 2024. 
             </p>
             <p className="text1">
             We are happy to share that
@@ -115,8 +115,7 @@ const Home = () => {
 
           <div className="mtb-2" />
           <p className="text1 red">
-            It is planned to publish the peer reviewed and selected papers of
-            conference as proceedings with Springer in their prestigious
+          The accepted papers after peer review and successful presentaton in the conference will be published as proceedings with Springer in their prestigious
             “Lecture Notes in Electrical Engineering” series (
             <a
               className="link"
@@ -298,6 +297,7 @@ const Home = () => {
               img: user.img,
               name: user.name,
               designation: user.designation,
+              college: user.college
             };
             return <SpeakerCard key={i} {...props} />;
           })}
