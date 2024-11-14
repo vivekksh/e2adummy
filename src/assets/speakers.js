@@ -6,16 +6,22 @@ export default [
     college: "Professor-IIT Goa",
   },
   {
-    name: "Prof. Pavan Kumar Kankar",
-    img: "/images/Pavan.jpg",
+    name: "Prof. Sharad Bhartiya",
+    img: "/images/Sharad_Bhartiya.jpg",
     designation: "Professor",
-    college: "IIT Indore"
+    college: "IIT Bombay",
   },
   {
     name: "Prof. Asokan Thondiyath",
     img: "/images/Asokan.jpg",
     designation: "Professor",
     college: "IIT Madras",
+  },
+  {
+    name: "Prof. Pavan Kumar Kankar",
+    img: "/images/Pavan.jpg",
+    designation: "Professor",
+    college: "IIT Indore"
   },
   {
     name: "Dr. Rajesh Joseph Abraham",
@@ -30,9 +36,9 @@ export default [
     college: "NIT Kurukshetra",
   },
   {
-    name: "Dr. Rajendra Prasad Behera",
-    img: "/images/rajendraB.jpeg",
-    designation: "Scientific Officer-G, Head, RTSD & CSDS",
+    name: "Shri S Sridhar",
+    img: "/images/sSridhar.png",
+    designation: "AD-Reactor Facilities Group",
     college: "IGCAR",
   },
   {
