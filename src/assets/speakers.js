@@ -6,12 +6,6 @@ export default [
     college: "Professor-IIT Goa",
   },
   {
-    name: "Prof. Sharad Bhartiya",
-    img: "/images/Sharad_Bhartiya.jpg",
-    designation: "Professor",
-    college: "IIT Bombay",
-  },
-  {
     name: "Prof. Asokan Thondiyath",
     img: "/images/Asokan.jpg",
     designation: "Professor",
