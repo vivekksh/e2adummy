@@ -268,8 +268,8 @@ const Header = () => {
               <div className="lBox">
               <img className="logo2" src="/logos/digiToad.jpg" alt="" />
               <img className="logo2" src="/logos/logo_springer.jpg" alt="" />
-              <img className="logo2" src="/logos/mantisWave.jpg" alt="" />
               <img className="serbLogo" src="/logos/serb_logo.png" alt="" />
+              <img className="logo2" src="/logos/mantisWave.jpg" alt="" />
               {/* <img className="logo2" src="/logos/infoTechLogo.jpg" alt="" /> */}
               {/* <img className="logo2" src="/logos/bmgLogo.jpg" alt="" /> */}
               </div>
