@@ -12,10 +12,10 @@ export default [
     college: "IIT Madras",
   },
   {
-    name: "Prof. Pavan Kumar Kankar",
-    img: "/images/Pavan.jpg",
+    name: "Prof. Rukmi Dutta",
+    img: "/images/rukmiDutt.jpeg",
     designation: "Professor",
-    college: "IIT Indore"
+    college: "University of New South Wales"
   },
   {
     name: "Dr. Rajesh Joseph Abraham",

@@ -135,8 +135,7 @@ const Registration = () => {
                 </li>
                 <li className="mt-1">
                   The authors can register for a maximum of 3 accepted papers.
-                  However, for a second and third paper, an additional fee of
-                  coming soon... is to be paid (each).
+                  For each extra paper, an additional fee of INR 3000 (USD 100) is to be paid.
                 </li>
                 <li className="mt-1">
                   Students can upload a maximum of 1 paper with a single
