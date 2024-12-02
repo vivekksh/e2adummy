@@ -267,11 +267,13 @@ const Header = () => {
               </div>
               <div className="lBox">
               <img className="logo2" src="/logos/digiToad.jpg" alt="" />
+              <img className="logo2" src="/logos/cdac-extended.jpg" alt="" />
+              <img className="logo2" src="/logos/serb_logo.png" alt="" />
               <img className="logo2" src="/logos/logo_springer.jpg" alt="" />
-              <img className="serbLogo" src="/logos/serb_logo.png" alt="" />
               <img className="logo2" src="/logos/mantisWave.jpg" alt="" />
               {/* <img className="logo2" src="/logos/infoTechLogo.jpg" alt="" /> */}
-              {/* <img className="logo2" src="/logos/bmgLogo.jpg" alt="" /> */}
+              <img className="logo2" src="/logos/bmgLogo.jpg" alt="" />
+              <img className="oceanLogo" src="/logos/oceanRobotix.jpeg" alt="" />
               </div>
             </div>
           </div>

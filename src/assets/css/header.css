@@ -136,8 +136,8 @@ h6 {
   width: 120px;
   height: 55px;
 }
-.serbLogo{
-  width: 120px;
+.oceanLogo{
+  width: 170px;
   height: 55px;
 }
 .logoBox{
@@ -152,7 +152,7 @@ h6 {
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 65%;
 }
 @media (max-width: 768px) {
   .content-container  {

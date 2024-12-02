@@ -18,10 +18,10 @@ export default [
     college: "University of New South Wales"
   },
   {
-    name: "Dr. Rajesh Joseph Abraham",
-    img: "/images/Rajesh.png",
-    designation: "Associate Professor",
-    college: "IIST",
+    name: "Dr. Mahbubul Alam",
+    img: "/images/malam.jpeg",
+    designation: "Chairman",
+    college: "Smart Avatar B.V., Amsterdam",
   },
   {
     name: "Dr. Ghanapriya Singh",
