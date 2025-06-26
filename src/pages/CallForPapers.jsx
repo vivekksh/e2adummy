@@ -36,7 +36,7 @@ const CallForPapers = () => {
         </div>
         <div className="paper-list mb-3">
           <p className="call-des">
-            Fourth International Conference on Emerging Electronics & Automation (E2A) will be organized by Department of Electronics and Instrumentation Engineering, NIT Silchar from 9th - 11th December, 2024. Prospective authors are requested to submit their original work for publication in the proceedings of E2A. The thrust areas are as follows but not limited to this.
+            Fifth 555555555 International Conference on Emerging Electronics & Automation (E2A) will be organized by Department of Electronics and Instrumentation Engineering, NIT Silchar from 9th - 11th December, 2024. Prospective authors are requested to submit their original work for publication in the proceedings of E2A. The thrust areas are as follows but not limited to this.
           </p>
           <div className="list-accordion">
             <div className="list-accordion-item">
